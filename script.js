@@ -26,3 +26,17 @@ if(sym1==sym2){
 else{
     console.log("false");
 }
+
+//largest of 3 nums
+let x=2; let y=3; let z=1;
+let largest=((x>y)?((x>z)?(x):(z)):((y>z)?(y):(z)));
+document.write(largest + "<br />");
+
+//loop
+let count;
+document.write("Starting loop"+"<br />");
+for (count =0;count<10; count++)
+{
+    document.write("current count :"+ count + "<br />");
+}
+document.write("loop stopped");
