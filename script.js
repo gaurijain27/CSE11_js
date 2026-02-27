@@ -39,4 +39,46 @@ for (count =0;count<10; count++)
 {
     document.write("current count :"+ count + "<br />");
 }
-document.write("loop stopped");
+document.write("loop stopped"+ "<br />"+ "<br />");
+
+let c=0;
+document.write("starting loop"+ "<br />");
+while (c<10)
+{
+    document.write("current count :"+ c + "<br />");
+    c++;
+}
+document.write("loop stopped"+ "<br />"+ "<br />");
+
+let grade='D';
+switch(grade)
+{
+    case 'A':
+        document.write("Good"+ "<br />");
+        break;
+    case 'B':
+        document.write("Okay"+ "<br />");
+        break;
+    case 'C':
+        document.write("Passed"+ "<br />");
+        break;
+    case 'D':
+        document.write("Not so Good"+ "<br />");
+        break;
+    case 'F':
+        document.write("Failed"+ "<br />");
+        break;
+    default:
+        document.write("invalid"+ "<br />");
+}
+
+
+function myFunction() //without parameters function
+{
+    alert ("hello world");
+}
+
+function sayHello(name,age)
+{
+    document.write(name+" is "+age+" years old");
+}
