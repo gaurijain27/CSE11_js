@@ -82,3 +82,56 @@ function sayHello(name,age)
 {
     document.write(name+" is "+age+" years old");
 }
+
+//arrow function (anonymous)
+let add= (a,b)=>console.log(a+b);   //single line arrow function
+add(10,20);
+
+//OBJECT (key value pairs in js)
+
+/*object creation :
+    let x=new object()   ........ here 'object' is a constructor & class
+    x.name:"joy";
+    x.age:10;
+    x.isMale:true;
+    x.address={} ........ object in object
+    x.address.street:'qwerty';   .......key value pairs in object in object 
+    x['address']['flatNo']:201;
+
+    OR 
+
+    let x={
+    key-value pairs }
+
+objects can contain other objects in them as well as funtions*/
+
+//Array is a special type of object
+let info= new Array();
+let info2= Array();
+console.log(info,info2);
+
+let collection=[
+    {},
+    [],
+    true,
+    "joy",
+    function() {},
+    8546946596,
+    undefined,
+    null,
+    new String("abc"),
+    new Date()
+]
+collection.teacherName="john";
+collection.phNo=762127669;
+
+console.log(collection);
+
+let trainerInfo =['jay',23,"india",{ismarried:true}];
+console.log(trainerInfo.length);
+console.log(trainerInfo);
+trainerInfo.contact=7798979785;     //adding element in array
+console.log(trainerInfo);   
+trainerInfo[0]='sunil';          //updation in elements
+console.log(trainerInfo);      
+console.log(trainerInfo.length);    //length of array does not change on adding elements in it 
