@@ -135,3 +135,4 @@ console.log(trainerInfo);
 trainerInfo[0]='sunil';          //updation in elements
 console.log(trainerInfo);      
 console.log(trainerInfo.length);    //length of array does not change on adding elements in it 
+
