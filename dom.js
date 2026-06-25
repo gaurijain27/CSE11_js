@@ -80,8 +80,16 @@ bodytag.append(heading);                                //appending element in p
     >onsubmit
     >onblur
     >onchange
+
+  4. Window events
+    >onload
+    >onunload
+    >onresize
+    >onscroll
+  
+  
     */
-   
+
 
 function onMouseOver()
 {
@@ -106,4 +114,8 @@ function onMouseMove()
 function onDoubleClick()
 {
   console.log("double clicked");
+}
+function onLoad()
+{
+  alert("window loaded successfully");
 }
